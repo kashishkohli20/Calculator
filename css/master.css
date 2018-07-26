@@ -1,0 +1,51 @@
+/*
+UNIVERSAL
+*/
+
+body{
+	width: 100%;
+	padding-left: 40%;
+	padding-top: 10%;
+	/* background: linear(#ADD8E6); */
+	background: #603813;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*
+MAIN-BODY OF CALCULATOR
+*/
+.main-body{
+	width: 33.5%;
+	padding: 20px;
+	background: linear-gradient(#8B4513, #CD853F /*#2E8B57*/);
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+.form-control{
+	width: 100%;
+	height: 100px;
+	text-align: right;
+	font-size: 2em;
+}
+
+/*
+BUTTONS
+*/
+button{
+	margin: 10px 10px;
+}
+.del-but, .equal-but{
+	padding: 10px 42px;
+	font-weight: 700;
+}
+.mod-but, .add-but, .sub-but, .mul-but, .div-but, .decimal-but, .one-but, .two-but, .three-but, .four-but, .five-but, .six-but, .seven-but, .eight-but, .nine-but{
+	padding: 10px 20px;
+	font-weight: 700;
+}
+.zero-but{
+	padding: 10px 35px;
+	font-weight: 700;
+}
